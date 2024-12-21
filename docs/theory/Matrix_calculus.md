@@ -86,7 +86,7 @@ is symmetric but not positive definite because it has a negative eigenvalue.
 Is it correct, that if a matrix is positive definite it should be symmetric?
 
 :::{.callout-solution collapse="true"}
-It is a tricky question. By definition a matrix is called positive definite only if it is symmetric. But in fact, if we talk about the real field $x \in \mathbb{R}^n$, it is easy to imagine a non-symmetric matrix for which $x^T A x \geq 0$ is satisfied, but the matrix will not be symmetric:
+It is a tricky question. By definition, a matrix is called positive definite only if it is symmetric. But in fact, if we talk about the real field $x \in \mathbb{R}^n$, it is easy to imagine a non-symmetric matrix for which $x^T A x \geq 0$ is satisfied, but the matrix will not be symmetric:
 $$
 A = \begin{pmatrix} 1 & 0 \\ -3 & 1 \end{pmatrix}
 $$
@@ -178,7 +178,7 @@ Euclidean norm, or $2$-norm, is a subclass of an important class of $p$-norms:
 $$
 \Vert x \Vert_p = \Big(\sum_{i=1}^n |x_i|^p\Big)^{1/p}. 
 $$
-There are two very important special cases. The infinity norm, or Chebyshev norm is defined as the element of the maximal absolute value:
+There are two very important special cases. The infinity norm, or Chebyshev norm, is defined as the element of the maximal absolute value:
 $$
 \Vert x \Vert_{\infty} = \max_i | x_i| 
 $$
